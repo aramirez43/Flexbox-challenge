@@ -11,3 +11,15 @@ li {
     font-size: 3em;
     text-align: center;
 }
+
+.my-list {
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.my-item {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+}
